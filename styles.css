@@ -17,6 +17,10 @@ body{
     color:#C8AA6E;
 }
 
+#MainMenu{
+    width: 400px;
+}
+
 .AccesoDirecto{
     padding-block: min(5vh, 5rem);
 }

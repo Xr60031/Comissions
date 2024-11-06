@@ -1,0 +1,164 @@
+body{
+    background-color:  #050A17;
+    text-align:center;
+    color:White;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.TituloSeccion{
+    background-color: rgb(88, 43, 156);
+    border-color: #C8AA6E;
+    border-style: solid;
+    border-width: 2px;
+    width: 200px;
+    display:inline-block;
+    margin-top:4rem;
+    color:#C8AA6E;
+}
+
+.AccesoDirecto{
+    padding-block: min(5vh, 5rem);
+}
+
+.barranav{
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+.enlaceAD{
+    color: #C8AA6E;
+}
+
+#barraDeNavegacion{
+    background-color: black;
+    color: #C8AA6E;
+}
+
+.imgCarrousel{
+    height: 500px;
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+.textoCarrousel{
+    border-color: #C8AA6E;
+    border-style: solid;
+    color:#C8AA6E;
+    background-color:  #050A17;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.priceLayout{
+    border-color: #C8AA6E;
+    border-style: solid;
+    color:#C8AA6E;
+    background-color: rgb(88, 43, 156);
+    width: 500px;
+    padding: 10px;
+    list-style: none;
+}
+
+.discountLayout{
+    border-color: #C8AA6E;
+    border-style: solid;
+    color:#C8AA6E;
+    background-color: rgb(88, 43, 156);
+    width: 300px;
+    padding: 10px;
+    list-style: none;
+}
+
+#ULD { 
+    display: flex; 
+    justify-content: center; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.Tarjeta{
+    border-color: #C8AA6E;
+    border-style: solid;
+    color:#C8AA6E;
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+}
+
+.imagenCarta{
+    width: 300px;
+    height: 350px;
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+.textoCarta{
+    border-color: #C8AA6E;
+    border-style: solid;
+    background-color: rgb(88, 43, 156)
+}
+
+#CMe{
+    background-image: url(Fotos/BlurredBackground.png);
+}
+
+.botonInfo{
+    background-color: rgb(88, 43, 156);
+    color:#C8AA6E;
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+.boxAD{
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #C8AA6E;
+    text-decoration: none;
+    color: #C8AA6E;
+    padding: 6px 10px;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    transition: color .3s;
+}
+
+.boxAD::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color:rgb(88, 43, 156);
+    z-index: -1;
+    left: 100%;
+    width: 0%;
+    transition: .3s;
+}
+
+.boxAD:hover{
+    color: #a37a27;
+}
+
+.boxAD:hover::before{
+    left: 0%;
+    width: 100%;
+    transition: width .3s;
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: black;
+    border-color: #C8AA6E;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #C8AA6E;
+    margin: 2px 0px;
+}

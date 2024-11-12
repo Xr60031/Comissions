@@ -11,10 +11,10 @@ body{
     border-color: #C8AA6E;
     border-style: solid;
     border-width: 2px;
-    width: 200px;
+    width:auto;
     display:inline-block;
-    margin-top:4rem;
     color:#C8AA6E;
+    margin-top:5rem;
 }
 
 #MainMenu{
@@ -40,7 +40,7 @@ body{
 }
 
 .imgCarrousel{
-    height: 500px;
+    height: 475px;
     border-color: #C8AA6E;
     border-style: solid;
 }
@@ -60,9 +60,9 @@ body{
     border-style: solid;
     color:#C8AA6E;
     background-color: rgb(88, 43, 156);
-    width: 500px;
+    width: 100%;
     padding: 10px;
-    list-style: none;
+    align-items: center;
 }
 
 .discountLayout{
@@ -117,7 +117,7 @@ body{
 
 .boxAD{
     display: block;
-    width: 100px;
+    width: auto;
     margin-left: 20px;
     margin-right: 20px;
     border: 1px solid #C8AA6E;
